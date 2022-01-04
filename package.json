@@ -1,0 +1,17 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "博客",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "LHC087",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.5",
+    "vuepress-theme-reco": "^1.6.10"
+  }
+}
