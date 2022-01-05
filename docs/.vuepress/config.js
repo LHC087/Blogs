@@ -11,7 +11,7 @@ module.exports = {
   themeConfig: {
     subSidebar: "auto",
     nav: [
-      { text: "首页", link: "/handbook/Home" },
+      { text: "首页", link: "/pages/Home" },
       {
         text: "LHC087",
         items: [
@@ -31,18 +31,18 @@ module.exports = {
     sidebar: [
       {
         title: "简介",
-        path: "/handbook/Home",
+        path: "/pages/Home",
         collapsable: false, // 不折叠
-        children: [{ title: "简介说明", path: "/handbook/Home" }],
+        children: [{ title: "简介说明", path: "/pages/Home" }],
       },
       {
         title: "实现步骤",
-        path: "/handbook/StepsOne",
+        path: "/pages/StepsOne",
         collapsable: false, // 不折叠
         children: [
-          { title: "创建GitHub仓库", path: "/handbook/StepsOne" },
-          { title: "步骤二", path: "/handbook/StepsTwo" },
-          { title: "步骤三", path: "/handbook/StepsThree" },
+          { title: "创建GitHub仓库", path: "/pages/StepsOne" },
+          { title: "创建 VuePress 项目", path: "/pages/StepsTwo" },
+          { title: "部署 GitHub Pages", path: "/pages/StepsThree" },
         ],
       },
     ],
